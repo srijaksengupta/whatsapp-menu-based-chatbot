@@ -16,6 +16,8 @@ In order to set up the project, perform the following steps in order:
 *	In the terminal, your current directory will be ***'/whatsapp-menu-based-chatbot'***
 *	Enter the backend directory using command ***'cd backend/'*** 
 *   Then run the script ***'npm install'*** to install all backend dependencies
+*   Next, set up your MongoDB database instance (either through Atlas or locally)
+*   This project uses MongoDB Atlas. But you can specify either a MongoDB Atlas URI or local MongoDB URI in the ATLAS_URI configuration of the ***'.env'*** file
 *   Now, go back the the home directory using command ***'cd ..'***
 *   Enter the frontend directory using command ***'cd frontend/'***
 *   Then run the script ***'npm install'*** to install all frontend dependencies
