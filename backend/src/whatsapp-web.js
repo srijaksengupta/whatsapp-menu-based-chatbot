@@ -47,7 +47,7 @@ client.on('message', async msg => {
             setTimeout(() => {  surveyStarted = true; }, 2000);
         }
         else {
-            client.sendMessage(msg.from, 'Please start the survey first by sending "#"');
+            client.sendMessage(msg.from, 'Please start the chat first by sending "#"');
         }
     }
     else {
