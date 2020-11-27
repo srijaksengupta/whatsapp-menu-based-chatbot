@@ -61,7 +61,7 @@ Please follow the below format while designing the chat menu.
 
 ## Error message structure
 
-Below is a table showing what kind of error messages are sent to the end users if they input wrong commands.
+Below is a table showing the kinds of error messages sent to the end users when they input wrong commands.
 
 | Case | Error message sent in reply |
 | ------------- | ------------- |
