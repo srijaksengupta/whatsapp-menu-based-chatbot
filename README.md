@@ -49,6 +49,24 @@ Perform the following steps in the same order:
 *   If the console shows ***'Client is ready!'***, that means the device has been succcessfully setup as the client
 *   Now, you can start chatting with the client from another device using the chat menu
 
+## Command architecture
 
+Please follow the below format while designing the chat menu.
 
+| Command | Description |
+| ------------- | ------------- |
+| # | To start the chat |
+| 0 | Base command with chat menu options |
+| 1 onwards | Chat menu based commands |
+
+## Error message structure
+
+Below is a table showing what kind of error messages are sent to the end users if they input wrong commands.
+
+| Case | Error message sent in reply |
+| ------------- | ------------- |
+| If chat not yet started and any command other than # sent | Please start the chat first by sending "#" |
+| If chat has been started and non-numeric command other than # sent | Your input was incorrect ! |
+| If chat has been started and 0 is sent as a command | Choose a correct option |
+| If chat has been started and any numeric command not in the database is sent | Choose a correct option |
 
