@@ -11,14 +11,14 @@ let surveyStarted = false
 const start = async function(){
     try {
         let menuitem = await MenuItem.findOne({command: arguments[0]}).exec();
-        if (typeof menuitem != null) {
+        if (menuitem !== null) {
             reply = menuitem.messageText
         }
         else {
             reply = ''
         }
     } catch (error) {
-        PassThrough
+        console.log(error)
     }
 }
 
