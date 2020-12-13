@@ -1,7 +1,7 @@
 # Whatsapp Menu-based Chatbot
 A Whatsapp chatbot application which is capable of custom menu-based conversations with end users.
 
-It is built by extending the **whatsapp-web.js** which uses Puppeteer to run a real instance of Whatsapp.
+It is built by extending **whatsapp-web.js** which uses Puppeteer to run a real instance of Whatsapp.
 
 The primary user can use the frontend side of the application to build a chat menu for the whatsapp interface by specifying commands, command types and associcated replies.
 
